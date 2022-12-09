@@ -48,6 +48,7 @@ btnLoadMore.addEventListener('click', () => {
     } else {
         markupImageList(foundData.hits);
         btnLoadMore.style.display = 'block';
+        gallerySimpleLightbox.refresh();
     }
   });
 });
